@@ -1,0 +1,48 @@
+.app h1 {
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.search button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(1, 77, 128);
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.poster {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.movieTitle{
+    font-weight: 600;
+} 
